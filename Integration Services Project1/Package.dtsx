@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="34"
-  DTS:VersionGUID="{C9DB859A-9C6C-4BA5-9E7F-76B7E14C9449}">
+  DTS:VersionBuild="38"
+  DTS:VersionGUID="{6135F2CF-BF5F-48D1-BF96-B2B03041B671}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -107,6 +107,276 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Aug17]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{089BCD47-A57F-4B96-94D0-DCD6D502D2E3}"
+      DTS:ObjectName="Aug17">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\User\Music\Shourob\assignment 2\HO_FY1718_AP05_Aug_Proc_Spend_25K_CSV.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Department"
+              DTS:DTSID="{F4357D55-AAD4-4282-9EF4-944F1BFD5E70}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Entity"
+              DTS:DTSID="{8301CF49-BF7E-405A-8751-2D233770C196}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date"
+              DTS:DTSID="{52409818-A978-49E7-AA84-D7B2EA5A8D2A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Expense Type"
+              DTS:DTSID="{E5FE10F2-2313-4236-A768-863477734C7E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Expense Area"
+              DTS:DTSID="{635DDCE6-FBAA-43BD-A807-96E43C2BA461}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Supplier Name"
+              DTS:DTSID="{6D71AD7B-16E8-42A6-A7D5-BA1D090D3EC1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Transaction Number"
+              DTS:DTSID="{CCFF9724-7D16-434D-B82C-B9FB4586F1E8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="4"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Spend"
+              DTS:DTSID="{343243A6-F6AE-4B55-A117-616B9E8AB45B}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Jul17]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{936C774E-AB30-43FE-9BA1-7100D0225D8B}"
+      DTS:ObjectName="Jul17">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\User\Music\Shourob\assignment 2\HO_FY1718_AP04_Jul_Proc_Spend_25K_CSV.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Department"
+              DTS:DTSID="{F28BD015-11A9-40AB-8D05-85744CCB97A5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Entity"
+              DTS:DTSID="{946D54CD-8D24-4F25-9A0C-0E3AFBCF91CB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date"
+              DTS:DTSID="{FCDBC268-C6A7-4E0E-B212-24646A596FDF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Expense Type"
+              DTS:DTSID="{47702A80-E6A6-48D5-9AA7-2DF1244F7A39}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Expense Area"
+              DTS:DTSID="{70EDADC3-D816-45D7-8217-D7B8DB40ECC7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Supplier Name"
+              DTS:DTSID="{9B41899F-1F3C-4E71-BAD3-18FD29A678EC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Transaction Number"
+              DTS:DTSID="{8FF1D6F7-E24B-4289-B118-0D9F519433FE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="4"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Spend"
+              DTS:DTSID="{D07160F0-B8F0-4B8C-8A45-13EAEDFB4D31}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Jun17]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{0D986BC8-7BF4-4112-B429-D087F5B5DF48}"
+      DTS:ObjectName="Jun17">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\User\Music\Shourob\assignment 2\HO_FY1718_AP03_Jun_Proc_Spend_25K_CSV.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Department"
+              DTS:DTSID="{24C3233F-F2B5-4D90-A2F3-537BEF0DAF23}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Entity"
+              DTS:DTSID="{7CD8E22B-3138-405E-83A3-00E25215741D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="7"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date"
+              DTS:DTSID="{6C65F7CA-6CD3-42AA-88C0-81821C373A3C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Expense Type"
+              DTS:DTSID="{EC88B43D-4F6E-4A9A-AB18-72D104F181DB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Expense Area"
+              DTS:DTSID="{E2239B2F-0926-4766-9D14-A0D636CC0AAF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Supplier Name"
+              DTS:DTSID="{DD05EC25-9515-4F73-BA13-AD1268B6AA89}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Transaction Number"
+              DTS:DTSID="{F7711D6A-C5E0-4E6D-97EE-7E9BE6CD9B21}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="4"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Spend"
+              DTS:DTSID="{A02B6667-D64B-4CF1-93E2-9BC46A146767}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LocalHost.csi-7-dat_coursework]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{84780562-7D00-41BA-A3CC-20C871D9CCF2}"
@@ -141,7 +411,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Department"
-              DTS:DTSID="{B476CF47-9952-4CD5-B415-17BA29993440}"
+              DTS:DTSID="{06CC2788-27DA-4899-A4EA-1C69E074F271}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -150,7 +420,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Entity"
-              DTS:DTSID="{96CF4163-CD54-458F-B607-11A7415CB01C}"
+              DTS:DTSID="{51654B8C-A1A3-48BF-BAC6-4C3D1F2CB13B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -158,7 +428,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{0184C9ED-43F2-475C-9BD3-E25F5A229381}"
+              DTS:DTSID="{E404AFEA-351A-420B-A34C-EBDF19AF87C4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -167,7 +437,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Expense Type"
-              DTS:DTSID="{62BD0662-810F-4E3E-8A6A-DC1252743CF2}"
+              DTS:DTSID="{AF184067-CC88-46C8-9076-C25C99B22FB8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -176,7 +446,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Expense Area"
-              DTS:DTSID="{2D51A9C3-FAD6-4948-8682-D9A9ED572801}"
+              DTS:DTSID="{1E5CEC3E-BA5A-4132-B22B-10614AC6B996}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -185,7 +455,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Supplier Name"
-              DTS:DTSID="{D82FF9F1-FD73-448D-923B-E4C49E3CE4FE}"
+              DTS:DTSID="{1FB4DFD4-5A21-4537-A6B3-106FDEF3087B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -194,15 +464,105 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Transaction Number"
-              DTS:DTSID="{E32AB90E-3B45-4BBE-8DA0-FF0FDDDF0603}"
+              DTS:DTSID="{5B3698C2-AB3D-4275-B990-ED62FF507AD9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
               DTS:DataType="4"
               DTS:TextQualified="True"
-              DTS:ObjectName="   Spend   "
-              DTS:DTSID="{8D377F87-249B-4F6A-A21A-500B0E053825}"
+              DTS:ObjectName="Spend"
+              DTS:DTSID="{127338E6-BFD2-4D17-9EF4-165056FA74A2}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Sep17]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{11370B04-53E6-4D4B-AF62-2578F966B667}"
+      DTS:ObjectName="Sep17">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\User\Music\Shourob\assignment 2\HO_FY1718_AP06_Sept_Proc_Spend_25K_CSV.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Department"
+              DTS:DTSID="{D78FA1D5-4502-48E1-BA23-726B2EAC7D63}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Entity"
+              DTS:DTSID="{46422331-6D00-44F8-91F7-C0CA52AC61E4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="133"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date"
+              DTS:DTSID="{61D57E46-5586-413E-8BF2-EE02146972BA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Expense Type"
+              DTS:DTSID="{2CFA9FA3-7FB6-453E-9900-43879F906FD0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Expense Area"
+              DTS:DTSID="{EC0802BA-D5FC-4578-9DC2-49F3116E01AD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Supplier Name"
+              DTS:DTSID="{C309F357-C839-40A4-AA28-2FA5DB2CD9B8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Transaction Number"
+              DTS:DTSID="{5626413A-EB48-4155-BA22-F59356C4960B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="4"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Spend"
+              DTS:DTSID="{295EC712-5566-4BB0-970E-E68B13153F78}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -495,6 +855,275 @@
               </outputs>
             </component>
             <component
+              refId="Package\Data Flow Task\Aug"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Aug"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Aug.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Aug17]"
+                  connectionManagerRefId="Package.ConnectionManagers[Aug17]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Department]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Department]"
+                      name="Department"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Entity]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Entity]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Entity]"
+                      name="Entity"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Date]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Date]"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Date]"
+                      name="Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Expense Type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Expense Type]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Expense Type]"
+                      name="Expense Type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Expense Area]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Expense Area]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Expense Area]"
+                      name="Expense Area"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Supplier Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Supplier Name]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Supplier Name]"
+                      name="Supplier Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Transaction Number]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Transaction Number]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Transaction Number]"
+                      name="Transaction Number"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Spend]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Spend]"
+                      name="Spend"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      dataType="wstr"
+                      length="50"
+                      name="Department" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Entity]"
+                      dataType="wstr"
+                      length="50"
+                      name="Entity" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Date]"
+                      dataType="date"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Expense Type]"
+                      dataType="wstr"
+                      length="100"
+                      name="Expense Type" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Expense Area]"
+                      dataType="wstr"
+                      length="50"
+                      name="Expense Area" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Supplier Name]"
+                      dataType="wstr"
+                      length="100"
+                      name="Supplier Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Transaction Number]"
+                      dataType="wstr"
+                      length="50"
+                      name="Transaction Number" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      dataType="r4"
+                      name="Spend" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Aug.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Data Flow Task\FY2017_2018_Data"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
@@ -510,7 +1139,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[OLE DB Detion]</property>
+                  name="OpenRowset">[FY2017_2018_Data]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -635,9 +1264,7 @@
                       name="Entity" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\FY2017_2018_Data.Inputs[OLE DB Destination Input].ExternalColumns[Date]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
+                      dataType="dbDate"
                       name="Date" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\FY2017_2018_Data.Inputs[OLE DB Destination Input].ExternalColumns[Expense Type]"
@@ -684,6 +1311,544 @@
                       refId="Package\Data Flow Task\FY2017_2018_Data.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Data Flow Task\FY2017_2018_Data.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Jul"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Jul"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Jul.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Jul17]"
+                  connectionManagerRefId="Package.ConnectionManagers[Jul17]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Department]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Department]"
+                      name="Department"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Entity]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Entity]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Entity]"
+                      name="Entity"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Date]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Date]"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Date]"
+                      name="Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Expense Type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Expense Type]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Expense Type]"
+                      name="Expense Type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Expense Area]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Expense Area]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Expense Area]"
+                      name="Expense Area"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Supplier Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Supplier Name]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Supplier Name]"
+                      name="Supplier Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Transaction Number]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Transaction Number]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Transaction Number]"
+                      name="Transaction Number"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Spend]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Spend]"
+                      name="Spend"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      dataType="wstr"
+                      length="50"
+                      name="Department" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Entity]"
+                      dataType="wstr"
+                      length="50"
+                      name="Entity" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Date]"
+                      dataType="date"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Expense Type]"
+                      dataType="wstr"
+                      length="100"
+                      name="Expense Type" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Expense Area]"
+                      dataType="wstr"
+                      length="50"
+                      name="Expense Area" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Supplier Name]"
+                      dataType="wstr"
+                      length="100"
+                      name="Supplier Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Transaction Number]"
+                      dataType="wstr"
+                      length="50"
+                      name="Transaction Number" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      dataType="r4"
+                      name="Spend" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jul.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Jun"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Jun"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Jun.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Jun17]"
+                  connectionManagerRefId="Package.ConnectionManagers[Jun17]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Department]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Department]"
+                      name="Department"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Entity]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Entity]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Entity]"
+                      name="Entity"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Date]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Date]"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Date]"
+                      name="Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Expense Type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Expense Type]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Expense Type]"
+                      name="Expense Type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Expense Area]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Expense Area]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Expense Area]"
+                      name="Expense Area"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Supplier Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Supplier Name]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Supplier Name]"
+                      name="Supplier Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Transaction Number]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Transaction Number]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Transaction Number]"
+                      name="Transaction Number"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Spend]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Spend]"
+                      name="Spend"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      dataType="wstr"
+                      length="50"
+                      name="Department" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Entity]"
+                      dataType="wstr"
+                      length="50"
+                      name="Entity" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Date]"
+                      dataType="date"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Expense Type]"
+                      dataType="wstr"
+                      length="100"
+                      name="Expense Type" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Expense Area]"
+                      dataType="wstr"
+                      length="50"
+                      name="Expense Area" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Supplier Name]"
+                      dataType="wstr"
+                      length="100"
+                      name="Supplier Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Transaction Number]"
+                      dataType="wstr"
+                      length="50"
+                      name="Transaction Number" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      dataType="r4"
+                      name="Spend" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Jun.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -869,13 +2034,13 @@
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Data Flow Task\May.Outputs[Flat File Source Output].Columns[   Spend   ]"
+                      refId="Package\Data Flow Task\May.Outputs[Flat File Source Output].Columns[Spend]"
                       dataType="r4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data Flow Task\May.Outputs[Flat File Source Output].ExternalColumns[   Spend   ]"
-                      lineageId="Package\Data Flow Task\May.Outputs[Flat File Source Output].Columns[   Spend   ]"
-                      name="   Spend   "
+                      externalMetadataColumnId="Package\Data Flow Task\May.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      lineageId="Package\Data Flow Task\May.Outputs[Flat File Source Output].Columns[Spend]"
+                      name="Spend"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -926,9 +2091,9 @@
                       length="50"
                       name="Transaction Number" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\May.Outputs[Flat File Source Output].ExternalColumns[   Spend   ]"
+                      refId="Package\Data Flow Task\May.Outputs[Flat File Source Output].ExternalColumns[Spend]"
                       dataType="r4"
-                      name="   Spend   " />
+                      name="Spend" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -953,6 +2118,275 @@
                       refId="Package\Data Flow Task\May.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Data Flow Task\May.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Sep"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Sep"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Sep.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Sep17]"
+                  connectionManagerRefId="Package.ConnectionManagers[Sep17]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Department]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Department]"
+                      name="Department"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Entity]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Entity]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Entity]"
+                      name="Entity"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Date]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Date]"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Date]"
+                      name="Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Expense Type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Expense Type]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Expense Type]"
+                      name="Expense Type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Expense Area]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Expense Area]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Expense Area]"
+                      name="Expense Area"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Supplier Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Supplier Name]"
+                      length="100"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Supplier Name]"
+                      name="Supplier Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Transaction Number]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Transaction Number]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Transaction Number]"
+                      name="Transaction Number"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Spend]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Spend]"
+                      name="Spend"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Department]"
+                      dataType="wstr"
+                      length="50"
+                      name="Department" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Entity]"
+                      dataType="wstr"
+                      length="50"
+                      name="Entity" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Date]"
+                      dataType="dbDate"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Expense Type]"
+                      dataType="wstr"
+                      length="100"
+                      name="Expense Type" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Expense Area]"
+                      dataType="wstr"
+                      length="50"
+                      name="Expense Area" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Supplier Name]"
+                      dataType="wstr"
+                      length="100"
+                      name="Supplier Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Transaction Number]"
+                      dataType="wstr"
+                      length="50"
+                      name="Transaction Number" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].ExternalColumns[Spend]"
+                      dataType="r4"
+                      name="Spend" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Sep.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1187,14 +2621,499 @@
                           name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Transaction Number]}</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 2].Columns[Spend]"
+                      cachedDataType="r4"
+                      cachedName="Spend"
+                      lineageId="Package\Data Flow Task\May.Outputs[Flat File Source Output].Columns[Spend]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Spend]}</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
                 <input
                   refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3]"
-                  dangling="true"
                   hasSideEffects="true"
                   name="Union All Input 3">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3].Columns[Department]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Department"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Department]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Department]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3].Columns[Entity]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Entity"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Entity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Entity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3].Columns[Date]"
+                      cachedDataType="date"
+                      cachedName="Date"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Date]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Date]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3].Columns[Expense Type]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Expense Type"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Expense Type]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Expense Type]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3].Columns[Expense Area]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Expense Area"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Expense Area]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Expense Area]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3].Columns[Supplier Name]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Supplier Name"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Supplier Name]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Supplier Name]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3].Columns[Transaction Number]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Transaction Number"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Transaction Number]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Transaction Number]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 3].Columns[Spend]"
+                      cachedDataType="r4"
+                      cachedName="Spend"
+                      lineageId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output].Columns[Spend]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Spend]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4]"
+                  hasSideEffects="true"
+                  name="Union All Input 4">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4].Columns[Department]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Department"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Department]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Department]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4].Columns[Entity]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Entity"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Entity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Entity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4].Columns[Date]"
+                      cachedDataType="date"
+                      cachedName="Date"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Date]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Date]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4].Columns[Expense Type]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Expense Type"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Expense Type]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Expense Type]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4].Columns[Expense Area]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Expense Area"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Expense Area]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Expense Area]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4].Columns[Supplier Name]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Supplier Name"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Supplier Name]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Supplier Name]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4].Columns[Transaction Number]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Transaction Number"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Transaction Number]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Transaction Number]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 4].Columns[Spend]"
+                      cachedDataType="r4"
+                      cachedName="Spend"
+                      lineageId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output].Columns[Spend]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Spend]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5]"
+                  hasSideEffects="true"
+                  name="Union All Input 5">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5].Columns[Department]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Department"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Department]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Department]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5].Columns[Entity]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Entity"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Entity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Entity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5].Columns[Date]"
+                      cachedDataType="date"
+                      cachedName="Date"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Date]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Date]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5].Columns[Expense Type]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Expense Type"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Expense Type]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Expense Type]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5].Columns[Expense Area]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Expense Area"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Expense Area]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Expense Area]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5].Columns[Supplier Name]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Supplier Name"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Supplier Name]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Supplier Name]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5].Columns[Transaction Number]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Transaction Number"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Transaction Number]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Transaction Number]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 5].Columns[Spend]"
+                      cachedDataType="r4"
+                      cachedName="Spend"
+                      lineageId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output].Columns[Spend]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Spend]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6]"
+                  hasSideEffects="true"
+                  name="Union All Input 6">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6].Columns[Department]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Department"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Department]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Department]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6].Columns[Entity]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Entity"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Entity]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Entity]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6].Columns[Date]"
+                      cachedDataType="date"
+                      cachedName="Date"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Date]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Date]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6].Columns[Expense Type]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Expense Type"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Expense Type]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Expense Type]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6].Columns[Expense Area]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Expense Area"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Expense Area]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Expense Area]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6].Columns[Supplier Name]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Supplier Name"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Supplier Name]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Supplier Name]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6].Columns[Transaction Number]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Transaction Number"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Transaction Number]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Transaction Number]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Union All.Inputs[Union All Input 6].Columns[Spend]"
+                      cachedDataType="r4"
+                      cachedName="Spend"
+                      lineageId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output].Columns[Spend]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Data Flow Task\Union All.Outputs[Union All Output 1].Columns[Spend]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Data Flow Task\Union All.Inputs[Union All Input 7]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Union All Input 7">
                   <externalMetadataColumns />
                 </input>
               </inputs>
@@ -1267,6 +3186,26 @@
               name="Flat File Source Output"
               startId="Package\Data Flow Task\May.Outputs[Flat File Source Output]" />
             <path
+              refId="Package\Data Flow Task.Paths[Flat File Source Output2]"
+              endId="Package\Data Flow Task\Union All.Inputs[Union All Input 3]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task\Jun.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Flat File Source Output3]"
+              endId="Package\Data Flow Task\Union All.Inputs[Union All Input 4]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task\Jul.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Flat File Source Output4]"
+              endId="Package\Data Flow Task\Union All.Inputs[Union All Input 5]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task\Aug.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Flat File Source Output5]"
+              endId="Package\Data Flow Task\Union All.Inputs[Union All Input 6]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task\Sep.Outputs[Flat File Source Output]" />
+            <path
               refId="Package\Data Flow Task.Paths[Union All Output 1]"
               endId="Package\Data Flow Task\FY2017_2018_Data.Inputs[OLE DB Destination Input]"
               name="Union All Output 1"
@@ -1299,7 +3238,7 @@
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="177,42"
           Id="Package\Data Flow Task\FY2017_2018_Data"
@@ -1307,41 +3246,41 @@
         <NodeLayout
           Size="96,42"
           Id="Package\Data Flow Task\Apr"
-          TopLeft="83,31" />
+          TopLeft="20,111" />
         <NodeLayout
           Size="100,42"
           Id="Package\Data Flow Task\May"
-          TopLeft="289,33" />
+          TopLeft="67,51" />
         <NodeLayout
           Size="123,42"
           Id="Package\Data Flow Task\Union All"
           TopLeft="235,176" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="131,73">
+          TopLeft="68,153">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="165.5,103"
+              EndConnector="199.75,23"
               Start="0,0"
-              End="165.5,95.5">
+              End="199.75,15.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,47.5" />
+                    End="0,11.0079575596817" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,47.5"
-                    Point2="0,51.5"
-                    Point3="4,51.5" />
+                    Point1="0,11.0079575596817"
+                    Point2="0,15.0079575596817"
+                    Point3="4,15.0079575596817" />
                   <mssgle:LineSegment
-                    End="161.5,51.5" />
+                    End="195.75,15.0079575596817" />
                   <mssgle:CubicBezierSegment
-                    Point1="161.5,51.5"
-                    Point2="165.5,51.5"
-                    Point3="165.5,55.5" />
+                    Point1="195.75,15.0079575596817"
+                    Point2="199.75,15.0079575596817"
+                    Point3="199.75,19.0079575596817" />
                   <mssgle:LineSegment
-                    End="165.5,95.5" />
+                    End="199.75,15.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1352,30 +3291,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
-          TopLeft="339,75">
+          TopLeft="117,93">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-23.3333333333334,101"
+              EndConnector="179.5,83"
               Start="0,0"
-              End="-23.3333333333334,93.5">
+              End="179.5,75.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,55.8218298555377" />
+                    End="0,37.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,55.8218298555377"
-                    Point2="0,59.8218298555377"
-                    Point3="-4,59.8218298555377" />
+                    Point1="0,37.5"
+                    Point2="0,41.5"
+                    Point3="4,41.5" />
                   <mssgle:LineSegment
-                    End="-19.3333333333334,59.8218298555377" />
+                    End="175.5,41.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-19.3333333333334,59.8218298555377"
-                    Point2="-23.3333333333334,59.8218298555377"
-                    Point3="-23.3333333333334,63.8218298555377" />
+                    Point1="175.5,41.5"
+                    Point2="179.5,41.5"
+                    Point3="179.5,45.5" />
                   <mssgle:LineSegment
-                    End="-23.3333333333334,93.5" />
+                    End="179.5,75.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1418,6 +3357,158 @@
             <mssgm:EdgeLabel
               BoundingBox="-0.5,41.5,16,16"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="97,42"
+          Id="Package\Data Flow Task\Jun"
+          TopLeft="143,4" />
+        <NodeLayout
+          Size="93,42"
+          Id="Package\Data Flow Task\Jul"
+          TopLeft="268,5" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\Data Flow Task\Aug"
+          TopLeft="382,23" />
+        <NodeLayout
+          Size="99,42"
+          Id="Package\Data Flow Task\Sep"
+          TopLeft="443,73" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
+          TopLeft="191.5,46">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="96.7857142857143,130"
+              Start="0,0"
+              End="96.7857142857143,122.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.6515245799627" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,65.6515245799627"
+                    Point2="0,69.6515245799627"
+                    Point3="4,69.6515245799627" />
+                  <mssgle:LineSegment
+                    End="92.7857142857143,69.6515245799627" />
+                  <mssgle:CubicBezierSegment
+                    Point1="92.7857142857143,69.6515245799627"
+                    Point2="96.7857142857143,69.6515245799627"
+                    Point3="96.7857142857143,73.6515245799627" />
+                  <mssgle:LineSegment
+                    End="96.7857142857143,122.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output3]"
+          TopLeft="314.5,47">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.78571428571428,129"
+              Start="0,0"
+              End="-9.78571428571428,121.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.1157436216553" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,65.1157436216553"
+                    Point2="0,69.1157436216553"
+                    Point3="-4,69.1157436216553" />
+                  <mssgle:LineSegment
+                    End="-5.78571428571428,69.1157436216553" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.78571428571428,69.1157436216553"
+                    Point2="-9.78571428571428,69.1157436216553"
+                    Point3="-9.78571428571428,73.1157436216553" />
+                  <mssgle:LineSegment
+                    End="-9.78571428571428,121.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output4]"
+          TopLeft="431.5,65">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-110.357142857143,111"
+              Start="0,0"
+              End="-110.357142857143,103.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.4052287581699" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,65.4052287581699"
+                    Point2="0,69.4052287581699"
+                    Point3="-4,69.4052287581699" />
+                  <mssgle:LineSegment
+                    End="-106.357142857143,69.4052287581699" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-106.357142857143,69.4052287581699"
+                    Point2="-110.357142857143,69.4052287581699"
+                    Point3="-110.357142857143,73.4052287581699" />
+                  <mssgle:LineSegment
+                    End="-110.357142857143,103.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output5]"
+          TopLeft="492.5,115">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-154.928571428571,61"
+              Start="0,0"
+              End="-154.928571428571,53.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.7898866608544" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,41.7898866608544"
+                    Point2="0,45.7898866608544"
+                    Point3="-4,45.7898866608544" />
+                  <mssgle:LineSegment
+                    End="-150.928571428571,45.7898866608544" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-150.928571428571,45.7898866608544"
+                    Point2="-154.928571428571,45.7898866608544"
+                    Point3="-154.928571428571,49.7898866608544" />
+                  <mssgle:LineSegment
+                    End="-154.928571428571,53.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
