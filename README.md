@@ -1,4 +1,7 @@
 # Integration-Services-with-ETL-using-MSSQL-server-and-power-BI
+
+![the-etl-workflow](https://user-images.githubusercontent.com/68260816/214400984-618fe54a-d21c-4b2f-9f57-b565fcb35e4e.png)
+
 This is a data warehousing project where we perform Extraction Transformation and Loading (ETL) operations on data from multiple sources.
 Data is downloaded from the UK official site.  
 
