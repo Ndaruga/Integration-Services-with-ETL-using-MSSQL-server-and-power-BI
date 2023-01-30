@@ -14,4 +14,5 @@ The following are some softwares needed for this project
 <li>Power BI</li>
 </ol>
 
+![image](https://user-images.githubusercontent.com/68260816/215585953-6b39a4d3-7686-4129-b53a-4bf2244a7d06.png)
 
