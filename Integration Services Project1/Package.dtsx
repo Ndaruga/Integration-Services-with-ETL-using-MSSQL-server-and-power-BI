@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="105"
-  DTS:VersionGUID="{F3942123-36EA-4E97-AA3C-52767FBBC6D0}">
+  DTS:VersionBuild="108"
+  DTS:VersionGUID="{AE91D59C-88C5-43EB-B4EA-B490B00DAD3D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -665,7 +665,19 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=.;Initial Catalog=csi-7-dat_coursework;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{84780562-7D00-41BA-A3CC-20C871D9CCF2}LocalHost.csi-7-dat_coursework;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=.;Initial Catalog=House Hold Income;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{84780562-7D00-41BA-A3CC-20C871D9CCF2}LocalHost.csi-7-dat_coursework;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.House Hold Income]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{3AA7AA92-07BC-4CF4-BC3D-D512D33E0CDC}"
+      DTS:ObjectName="LocalHost.House Hold Income">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.;Initial Catalog=House Hold Income;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{3AA7AA92-07BC-4CF4-BC3D-D512D33E0CDC}LocalHost.House Hold Income;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -4281,8 +4293,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\FY2017_2018_Data.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LocalHost.csi-7-dat_coursework]"
-                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.csi-7-dat_coursework]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.House Hold Income]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.House Hold Income]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -6768,73 +6780,129 @@
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="97,42"
-          Id="Package\Data Flow Task\Jun"
-          TopLeft="191.75,25.25" />
-        <NodeLayout
-          Size="93,42"
-          Id="Package\Data Flow Task\Jul"
-          TopLeft="330.25,24" />
-        <NodeLayout
-          Size="177,42"
-          Id="Package\Data Flow Task\FY2017_2018_Data"
-          TopLeft="507,555.142857142857" />
-        <NodeLayout
           Size="123,42"
           Id="Package\Data Flow Task\Full Year"
           TopLeft="533,390" />
-        <NodeLayout
-          Size="137,42"
-          Id="Package\Data Flow Task\2nd Half FY"
-          TopLeft="807,268" />
-        <NodeLayout
-          Size="98,42"
-          Id="Package\Data Flow Task\Feb"
-          TopLeft="929,62" />
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Data Flow Task\1st Half FY"
-          TopLeft="300,265" />
         <NodeLayout
           Size="99,42"
           Id="Package\Data Flow Task\Sep"
           TopLeft="469.5,120.25" />
         <NodeLayout
+          Size="98,42"
+          Id="Package\Data Flow Task\Feb"
+          TopLeft="929,62" />
+        <NodeLayout
           Size="96,42"
           Id="Package\Data Flow Task\Oct"
           TopLeft="596.5,148.75" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\Data Flow Task\Derived Column"
-          TopLeft="517,472" />
-        <NodeLayout
-          Size="97,42"
-          Id="Package\Data Flow Task\Jan"
-          TopLeft="832.5,17.75" />
         <NodeLayout
           Size="99,42"
           Id="Package\Data Flow Task\Nov"
           TopLeft="650.25,92.75" />
         <NodeLayout
-          Size="99,42"
-          Id="Package\Data Flow Task\Dec"
-          TopLeft="725,49.25" />
+          Size="158,42"
+          Id="Package\Data Flow Task\Derived Column"
+          TopLeft="517,472" />
         <NodeLayout
           Size="100,42"
           Id="Package\Data Flow Task\May"
           TopLeft="116.75,82.25" />
         <NodeLayout
           Size="99,42"
-          Id="Package\Data Flow Task\Aug"
-          TopLeft="414.25,67" />
+          Id="Package\Data Flow Task\Dec"
+          TopLeft="725,49.25" />
         <NodeLayout
           Size="98,42"
           Id="Package\Data Flow Task\Mar"
           TopLeft="990,112" />
         <NodeLayout
+          Size="99,42"
+          Id="Package\Data Flow Task\Aug"
+          TopLeft="414.25,67" />
+        <NodeLayout
+          Size="97,42"
+          Id="Package\Data Flow Task\Jun"
+          TopLeft="191.75,25.25" />
+        <NodeLayout
           Size="96,42"
           Id="Package\Data Flow Task\Apr"
           TopLeft="52.75,127.75" />
+        <NodeLayout
+          Size="93,42"
+          Id="Package\Data Flow Task\Jul"
+          TopLeft="330.25,24" />
+        <NodeLayout
+          Size="137,42"
+          Id="Package\Data Flow Task\2nd Half FY"
+          TopLeft="807,268" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Data Flow Task\FY2017_2018_Data"
+          TopLeft="507,555.142857142857" />
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Data Flow Task\1st Half FY"
+          TopLeft="300,265" />
+        <NodeLayout
+          Size="97,42"
+          Id="Package\Data Flow Task\Jan"
+          TopLeft="832.5,17.75" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
+          TopLeft="882.857142857143,59.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,208.25"
+              Start="0,0"
+              End="0,200.75">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,200.75" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
+          TopLeft="978,104">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-74.8571428571429,164"
+              Start="0,0"
+              End="-74.8571428571429,156.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,98.7276290006531" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,98.7276290006531"
+                    Point2="0,102.727629000653"
+                    Point3="-4,102.727629000653" />
+                  <mssgle:LineSegment
+                    End="-70.8571428571429,102.727629000653" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-70.8571428571429,102.727629000653"
+                    Point2="-74.8571428571429,102.727629000653"
+                    Point3="-74.8571428571429,106.727629000653" />
+                  <mssgle:LineSegment
+                    End="-74.8571428571429,156.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output]"
           TopLeft="1039,154">
@@ -6946,7 +7014,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-138.916666666666,52.3836276083467,16,16"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6980,7 +7050,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="96.4166666666665,54.1605136436597,16,16"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7269,62 +7341,6 @@
                     Point3="148.107142857143,87.4661985630307" />
                   <mssgle:LineSegment
                     End="148.107142857143,125.75" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
-          TopLeft="882.857142857143,59.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,208.25"
-              Start="0,0"
-              End="0,200.75">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,200.75" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
-          TopLeft="978,104">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-74.8571428571429,164"
-              Start="0,0"
-              End="-74.8571428571429,156.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,98.7276290006531" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,98.7276290006531"
-                    Point2="0,102.727629000653"
-                    Point3="-4,102.727629000653" />
-                  <mssgle:LineSegment
-                    End="-70.8571428571429,102.727629000653" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-70.8571428571429,102.727629000653"
-                    Point2="-74.8571428571429,102.727629000653"
-                    Point3="-74.8571428571429,106.727629000653" />
-                  <mssgle:LineSegment
-                    End="-74.8571428571429,156.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
